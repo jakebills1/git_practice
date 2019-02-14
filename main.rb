@@ -1,5 +1,5 @@
 def puts_git(cmd)
-	puts 'git #{cmd} -h'
+	puts `git #{cmd} -h`
 	menu
 end
 
