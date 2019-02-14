@@ -13,6 +13,9 @@ def menu
 		puts_git(gets.strip)
 		menu
 	when 2
+		puts 'Thanks for using the program"
+		sleep(3)
+		print `clear`
 		exit
 	else
 		puts 'Invalid Choice'
